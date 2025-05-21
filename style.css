@@ -67,7 +67,7 @@ header{
   #article_ul{
       background-color: #4f4f4f;
   }
-  #section_main{
+  #section{
       display: flex;
       margin:20px 10px;
       justify-content: center;
@@ -75,7 +75,7 @@ header{
       flex-wrap:wrap;
       width: 100%;
   }
-  #section_main article{
+  #section article{
       display: flex;
       background-color: #ededed;
       align-items: center;
@@ -92,27 +92,27 @@ header{
       
   }
   
-  #section_main article p{
+  #section article p{
   
       font-family: "Open sans";
       color:#4f4f4f
   
   }
-  #section_main article img{
+  #section article img{
       width:200px;
       height:199px;
   }
-  #section_main article .cell{
+  #section article .cell{
       font-family: "Open sans";
       color:black;
       font-weight: 500;
       font-size:2rem;
   
   }
-  #section_main article h2{
+  #section article h2{
       font-family: "Open sans";
   }
-  #section_main article button{
+  #section article button{
       border:none;
       background-color: #353535;
       font-family: "Open sans";
@@ -120,7 +120,7 @@ header{
       padding: 10px 15px;
       cursor: pointer;
   }
-  #section_main article button:active{
+  #section article button:active{
       background-color: #282828;
       color:#ededed
   }
@@ -160,7 +160,7 @@ textarea:not([rows]) {
 }
 
 @media (max-width:768px){
-  #section_main article p{
+  #section article p{
     display: none;
     font-family: "Open sans";
     color:#4f4f4f
