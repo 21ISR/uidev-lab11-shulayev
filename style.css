@@ -1,0 +1,168 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  font-size: 62.5%;
+}
+
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
+  margin-block: 0;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  font-size: 1.6rem;
+}
+
+h1, h2, h3, h4,
+button, input, label {
+  line-height: 1.1;
+}
+
+h1, h2,
+h3, h4 {
+  text-wrap: balance;
+}
+
+
+header{
+    /* display: flex; */
+    background-color:#353535 ;
+    color:aliceblue
+  }
+  header article h1{
+      text-align: center;
+      padding: 30px 0px;
+      font-size: 32px;
+      font-family: "Roboto";
+  }
+  
+  header article ul{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap:40px;
+      list-style: none;
+      font-family: "Roboto";
+  }
+  header article ul li a{
+      text-decoration: none;
+  }
+  
+  header article ul li a:hover{
+      color:#ededed
+  }
+  
+  #article_ul{
+      background-color: #4f4f4f;
+  }
+  #section{
+      display: flex;
+      margin:20px 10px;
+      justify-content: center;
+      gap:40px;
+      flex-wrap:wrap;
+      width: 100%;
+  }
+  #section article{
+      display: flex;
+      background-color: #ededed;
+      align-items: center;
+      flex-direction: column;
+      width: 420px;
+      text-align: center;
+      padding: 15px 20px;
+      gap: 10px;
+      border-radius: 2px;
+      border-color:#C0C0C0;
+      border-style:  solid;
+      border-width: 1px;
+      padding-bottom: 25px;
+      
+  }
+  
+  #section article p{
+  
+      font-family: "Open sans";
+      color:#4f4f4f
+  
+  }
+  #section article img{
+      width:200px;
+      height:199px;
+  }
+  #section article .cell{
+      font-family: "Open sans";
+      color:black;
+      font-weight: 500;
+      font-size:2rem;
+  
+  }
+  #section article h2{
+      font-family: "Open sans";
+  }
+  #section article button{
+      border:none;
+      background-color: #353535;
+      font-family: "Open sans";
+      color:white;
+      padding: 10px 15px;
+      cursor: pointer;
+  }
+  #section article button:active{
+      background-color: #282828;
+      color:#ededed
+  }
+
+:root { --variable: value; }
+ 
+
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+  color: currentColor;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+input, button,
+textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+:target {
+  scroll-margin-block: 5ex;
+}
+
+@media (max-width:768px){
+  #section article p{
+    display: none;
+    font-family: "Open sans";
+    color:#4f4f4f
+}
+}
